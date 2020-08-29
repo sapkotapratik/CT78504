@@ -27,15 +27,18 @@ ENTERPRISE APPLICATION DESIGN AND DEVELOPMENT
 - 8 primitive data types.
 
   - Variable kinds
-    o) Instances
-    o) Static 
-    o) Local 
   
-    - Instance variable are unique to each object and they hold an object state. 
+      o) Instances
+    
+      o) Static 
+    
+      o) Local 
   
-    - Static variable are class variables that are shared across all objects of the class.
+      - Instance variable are unique to each object and they hold an object state. 
   
-    - Local variables are defined within mehthods or constructors. Even method paraemeter and constructor parameter are considered as local varialbes.
+      - Static variable are class variables that are shared across all objects of the class.
+  
+      - Local variables are defined within mehthods or constructors. Even method paraemeter and constructor parameter are considered as local varialbes.
   
   
  ### 3) Arrays

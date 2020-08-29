@@ -5,16 +5,16 @@ ENTERPRISE APPLICATION DESIGN AND DEVELOPMENT
 
 --> Top-Down Approach to the concepts.
 
-1) Object-oriented Programming
+### 1) Object-oriented Programming
 
 - Model real-world scenarios in a natural way
 
--Object is used to represent real world entity
+- Object is used to represent real world entity
 
 - Objects are defined by a class. Class is like a blueprint and objects are instances of a class.
 
 
-2) Variables
+### 2) Variables
 
 - Container that hold something
 
@@ -24,21 +24,21 @@ ENTERPRISE APPLICATION DESIGN AND DEVELOPMENT
 
 - Variable types: primitive  & object references.
 
-- * primitive data types.
+- 8 primitive data types.
 
-- Variable kinds
-  o) Instances
-  o) Static 
-  o) Local 
+  - Variable kinds
+    o) Instances
+    o) Static 
+    o) Local 
   
-  - Instance variable are unique to each object and they hold an object state. 
+    - Instance variable are unique to each object and they hold an object state. 
   
-  - Static variable are class variables that are shared across all objects of the class.
+    - Static variable are class variables that are shared across all objects of the class.
   
-  - Local variables are defined within mehthods or constructors. Even method paraemeter and constructor parameter are considered as local varialbes.
+    - Local variables are defined within mehthods or constructors. Even method paraemeter and constructor parameter are considered as local varialbes.
   
   
-  3) Arrays
+ ### 3) Arrays
   
  - In Java, Array is an object.
  
@@ -49,7 +49,7 @@ ENTERPRISE APPLICATION DESIGN AND DEVELOPMENT
  - Supports fast random access. Constant time O(1).
  
  
- 4) Methods
+ ### 4) Methods
  
  - Define or represents behavior.
  
@@ -57,7 +57,8 @@ ENTERPRISE APPLICATION DESIGN AND DEVELOPMENT
  
  - To overload, parameter list MUST be different.
  
- 5) Constructors:
+ 
+ ### 5) Constructors:
  
  - Invoked when object is being created.
  

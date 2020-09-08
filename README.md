@@ -70,12 +70,76 @@ ENTERPRISE APPLICATION DESIGN AND DEVELOPMENT
  - We can have multiple constructor on the same class.
  
           - this()
-              o) invokes overloades constructor
+              o) invokes overloaded constructor
               
               o) MUST be constructor's first element.
  
  
  
+### 6) Arithmetic Operators:
+ 
+ - Operands ~ primitive <b> numeric </b> types. all primitives except boolean.
+ 
+ - One exception was plus(+) operator which is used for concatenating strings.
+ 
+ - Rules:
+     - Operator Precedence : It is useful when expression involves multiple operators on the order in which operations would be applied is not clear from the expression.
+                            Rule 1: Preference to multiplicative operator to additive operator
+                            Rule 2: Operator within ssame group will be evaluated from left to right.
+                            
+     - Operand Promotion: Operand smaller than int data type are promoted to int data type.
+     
+     - Same -type operands: if both operands are of same type then the final value of the operation will also be of the same type as the two operands.
+     
+     - Mixed - type operands : then smaller type is automatically promoted to larger data type.
+     
+ ### 7) Comparison and Logical Operators:
+ 
+ -> Comparison : Compare one operand with another (referred to as relation operator)
+ 
+           - == and != can compare object references (helps for performing null checks and avoiding runtime errors like <b>NullPointerException</b>
+ 
+ -> Logical : Test multiple conditions
+ 
+                 - && and || are short-circuited
+                 
+                 
+### 8) Bitwise & Bit Shift:
+
+-> Useful in resource contrained applications.
+
+-> Bitwise operands ~ integer and boolean primitives.
+
+-> Bitshift operands ~ integer primitives
+
+          - Left-shift ~ multiplication by powers of 2
+          
+          - Unsigned right-shift ~ division by powers of 2
+          
+-> Applications: Compiler , hashing, embedded  & games programming
+
+
+
+# 9) Switch Statement
+
+-> Switch expression  ~ integer, String or enum
+
+-> When to prefer switch over if?
+    
+    - Readability
+    
+    - Intent
+    
+    - Speed
+    
+             Note: Can use JProfiler to make the decision?
+             
+    - Effective Jave: Item 46: Prefer for-each loops to traditional for loops
+    
+    - Prefer for loops to while loops
+    
+    
+              - 
  
  
  
